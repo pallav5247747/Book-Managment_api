@@ -184,5 +184,5 @@ pallavAPI.put("/publication/update/book/:isbn", (req, res) => {
 
 
 /* ---end--- */
-
-pallavAPI.listen(8080, () => console.log("hey server is running"));
+let http = require('http');
+http.createServer(pallavAPI).listen(8080, () => console.log("hey server is running"));
