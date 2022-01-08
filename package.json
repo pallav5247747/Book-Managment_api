@@ -7,6 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx nodemon index.js"
   },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pallav5247747/Book-Managment_api.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
